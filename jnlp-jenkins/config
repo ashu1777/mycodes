@@ -1,0 +1,48 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeE1EWXpNREE1TkRNek5Wb1hEVE14TURZeU9EQTVORE16TlZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTHBFClozdFUybktvQ3hpMi9sZE80KzFpclU3TFBVejF5bDljWHJWMU4wNFhyaHA3T0tDS1ZjSXQ4R3B2YmZyeVdiN20KWlhtbnROM2M3b3UrUzgwTlNxR0FubUo4aEpFSkV5NXByQjkyZ3R4TjJUUW5ZZ2tyazhEMWpkbEljc3hoZzFFbQpHTVpCV0Q5VWhhOUlwemRFZmM4WjhpNU5NaUZFOE9oTzlPSnB1bCttOTR6ejBLalVxdGd2ajE3ck9LeEx5US9nCmkxZE0zYldjNUU5dHQvKzJEcUdUSlhKMllLRGdpSXRVNjhBSnVHVEh6K1V4bGUyRXNBTFB2c0RTd29XWURPc0UKanpyQ2xSaW13ZUs5V3J5b0p2NytUSjhhMndkRmFGZWJmclZ1K0VSSDZTY1FFY3kzTVEzcXpiWFJSMzEvMDhLVwpQQkYrekZ6K2x6UVFsc0lMaWdVQ0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZEcGpvZFZIb2ExQ1RIYk5NK3M2RUJTaG1ONGVNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFCUytQSndQNUFuTGg3R3crbUNhQ3ZhaVdPeHVmQkl3WHJ5ZGlSanY1T1llMzQ2UUNCTwphNm1PQ2JFK2lqVWM1Vi9YNmFOWURXZ1pacXorSjgwb2kyVFZRZG9ZZ0NObTFuUnVNamhCM1ZvNDNjdUlKV3JPCk5WMzViR2pBNXdXQzBRTnpPNHlkOEQ4SWI4K3hjd2xZaFVrSGxtckwvRVdGeEZ4RW51eFlLa2FFTnhwaHN3SUIKck4wNHV5Skk0MjA2bjBYdXowM1lxS0xkRHlPOEoxazBNcWM2bUkwZHd4eVlhazN5bUlrMm5XSWYvNnZPVlFkYwpRbkp1ci9iMFFOZ1RER1Y0dDA3QVh0b0YxWS9SR3dkRFpsUTNCSDdSSU1FeUdpcmZZdlRwL1ZSdTc1MC84UmltCjNNZmRUOVZiOGcvRjBhQklOL1ZqcFlrVFhxZVZ2amdVdDFndQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://32FBFD4C5A15265A15B98F55896DC2D6.gr7.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:992022947233:cluster/zoomcar-eks
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeE1EY3hNekUxTVRJeE1sb1hEVE14TURjeE1URTFNVEl4TWxvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTTZICm1SaENGSTNhSThyNFl6MmV3dENydS9EZFVKejgzbU54QXFnNzNjRnE1RDFyRkw4a3k5UnZzdmRMUE1IS2ZMcmkKKzlCdUtNSmY5UFNSbk1oSXlQL0U4YVJRd2t0NHZxSFNwYWJ4Z1IvVmFNM1dCaEl5YzZLMGJKaUNySFEyVnp4TApvUTB5YnBKdWRyNFZLVDFldEFBc2MxaDdPWU0zK0ZNOVJRcEorblRIRG96WjhvOGNub2ZQemF5K3dEQ284UzBwCjhxVkx6bUVFdnRkL2VrVjVSdnlIZGFXZW5ER0lHTHJWdlN6MXNsejlNRS9Ua0Q4a1huVm9sQVc0OXBZeVlpR2EKV1p2QlZZMG5yNFlUK3g3NGZjWE1nSkREQzZiYzBoNmdjS1FtT3A0UkdyS3l6cUJ0WU00L1FkMTVPdFZxaEdvZwp2U2dlbzNEYndyQkhxUnZwWFRNQ0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZOYUNrWFQzUGUwNFhGSWdyUzJQVXhPWDhUazhNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFDdkJGanVIMjVwYUozS1JYNUhMUGgxcllFWkVmQ2FGcnJNejJJb0p0RjN1b3N4ZHUvWgpzbm02QlJockZ4dVN3N1FXZkJKR0NMSFVhdHhNVVM1MklqY0NwOGNXZFFGeVRzbWNLck1MUVVudGluendvWUFhClFkRm1PZllzdWgveDcvWHpUamN3bFpnZlhBYTdWZzR5bWRCMkQ1aklvOHRsaXhLMGF2dEw5T09hKzFVL25EQUkKRE96NmtHdForWUdLeFRpQ1pldElzQ0xNQklEQ2ZYYmR6Qmtxcmx1RTFVM2x2UEtvakxBK25zVUxneSs3ZGZiNQppcGtRM1k0TUVzYzUyUkgyVi9TYTY5OXJZMFd0NVpCMVU5a1NWa0h2cFNjTTI2cWVBWWQzbFFLVVVSN2pPdFNjCmJZdS9MK2Q0UUZPS0RzNld2dndDMkVUenNEZmJaWVVDa2E4ZgotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://E924B475F2779C2D39D1E075E2C8ED1D.gr7.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:992022947233:cluster/nonprod-cmn-zcar-cluster-1
+contexts:
+- context:
+    cluster: arn:aws:eks:ap-south-1:992022947233:cluster/zoomcar-eks
+    user: arn:aws:eks:ap-south-1:992022947233:cluster/zoomcar-eks
+  name: arn:aws:eks:ap-south-1:992022947233:cluster/zoomcar-eks
+- context:
+    cluster: arn:aws:eks:ap-south-1:992022947233:cluster/nonprod-cmn-zcar-cluster-1
+    user: arn:aws:eks:ap-south-1:992022947233:cluster/nonprod-cmn-zcar-cluster-1
+  name: arn:aws:eks:ap-south-1:992022947233:cluster/nonprod-cmn-zcar-cluster-1
+current-context: arn:aws:eks:ap-south-1:992022947233:cluster/nonprod-cmn-zcar-cluster-1
+kind: Config
+preferences: {}
+users:
+- name: arn:aws:eks:ap-south-1:992022947233:cluster/zoomcar-eks
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - zoomcar-eks
+      command: aws
+- name: arn:aws:eks:ap-south-1:992022947233:cluster/nonprod-cmn-zcar-cluster-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - nonprod-cmn-zcar-cluster-1
+      command: aws
+
