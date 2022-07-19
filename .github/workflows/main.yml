@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: build-and-push
         run: |
-          lok juh
+          cat ff
