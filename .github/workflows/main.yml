@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: build-and-push
         run: |
-          echo "hello"
+          lok juh
