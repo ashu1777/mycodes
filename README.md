@@ -1,4 +1,3 @@
 # mycodes
-````
-ashu - (https://google.com)
-acd - fsda
+ashu -> (https://google.com)
+acd  -> fsda
